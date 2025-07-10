@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+.logo {
+    width: 4rem;
+    height: 5rem;
+}
+
+/*Think how to make absolute another way*/
+.header-menu {
+    width: auto;
+    height: 10rem;
+    /* border: 1px solid red; */
+    padding: 20px 20px 20px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Open Sans;
+    position: relative;
+}
+
+.header-logo {
+    /* border: 1px solid blue; */
+    color: white;
+    text-align: center;
+    margin-right: 4rem;
+}
+
+.header-logo-name {
+    font-size: 1.5rem;
+}
+
+.header-logo-line {
+    height: 2px;
+    background-color: white;
+}
+
+.header-logo-activity {
+    font-size: 15px;
+}
+
+.header-image {
+    width: 100%;
+    /*Make independent size*/
+    height: 45rem;
+    position: absolute;
+}
+
+.header__nav ul {
+    display: flex;
+    gap: 100px;
+}
+
+.header__nav a {
+    text-decoration: none;
+    color: white;
+}
+
+.header-lang {
+    margin-left: 5rem;
+}
+
+.header__nav {
+    border: 2px solid white;
+    padding: 17px 60px 17px 60px;
+    border-radius: 20px;
+    font-size: 1rem;
+    color: white;
+}
+
+.header__nav--active {
+    border: 1px solid #1C2D4A;
+    border-radius: 2rem;
+    width: 200px;
+    padding: 10px 35px 10px 35px;
+    background-color: #1C2D4A;
+}
+
+.header-lang {
+    border: 1px solid black;
+    padding: 15px 10px 15px 10px;
+    width: 120px;
+    border-radius: 2rem;
+    background-color: #FFFFFF;
+}
+
+.header-lang--active {
+    border: 1px solid #1C2D4A;
+    border-radius: 3rem;
+    padding: 5px 20px 5px 20px;
+    background-color: #1C2D4A;
+    color: white;
+    margin-right: 10px;
+}
+
+.header-slogan {
+    font-family: Fira Sans;
+    font-size: 4rem;
+    text-align: center;
+    position: relative;
+    color: white;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-top: 6rem;
+}
+
+.header-buttons {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+}
+
+.header-our-projects-btn,
+.header-our-contacts-btn {
+    width: 15rem;
+    height: 2.5rem;
+    border-radius: 3rem;
+    padding: 10px 10px 10px 10px;
+    color: white;
+    font-family: Open Sans;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-our-projects-btn {
+    background-color: #345389;
+    margin-right: 2rem;
+}
+
+.header-our-contacts-btn {
+    border: 1px solid white;
+}
+
+.header-arrow {
+    width: 2rem;
+    height: 2rem;
+    margin-left: 12px;
+    border-radius: 2rem;
+}
+
+.header-arrow-down-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 4rem;
+}
+
+.header-arrow-down {
+    /* border: 1px solid black; */
+    position: relative;
+    width: 60px;
+    height: 60px;
+}

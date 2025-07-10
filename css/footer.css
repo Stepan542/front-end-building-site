@@ -1,0 +1,87 @@
+.footer-container {
+    /* border: 1px solid black; */
+    width: auto;
+    height: 20rem;
+    margin: 0 auto;
+    background-color: black;
+    font-family: Open Sans;
+}
+
+.footer-sections {
+    /* border: 2px solid purple; */
+    width: 80rem;
+    height: 14rem;
+    margin: 0 auto;
+    padding-top: 2rem;
+}
+
+.footer-section-logo {
+    color: white;
+    text-align: center;
+    width: 120px;
+    height: 180px;
+    /* border: 1px solid red; */
+}
+
+.footer-logo-name {
+    font-size: 1.5rem;
+}
+
+.footer-logo-line {
+    height: 2px;
+    background-color: white;
+}
+
+.footer-logo-activity {
+    font-size: 15px;
+}
+
+.footer-navigation-name,
+.footer-contacts-name {
+    color: white;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.footer-sections {
+    display: flex;
+    gap: 12rem;
+}
+
+.footer-navigation-points,
+.footer-contacts-points {
+    color: #A1A1A1;
+    font-size: 18px;
+}
+
+.footer-navigation-points li {
+    margin-bottom: 10px;
+}
+
+.footer-contacts-points li {
+    margin-bottom: 10px;
+}
+
+.footer-author-container {
+    border-top: 2px solid #FFFFFF;
+    width: 80rem;
+    height: 3rem;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+    position: relative;
+    padding-top: 10px;
+}
+
+.footer-author-name {
+    color: #A1A1A1;
+}
+
+.footer-inst-icon {
+    border-radius: 2rem;
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    right: 0;
+}
